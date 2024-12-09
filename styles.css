@@ -1,0 +1,212 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Cambria;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9D7458;
+    color: white;
+}
+
+ .banner {
+            background-image: url(banner.png); /* Path to the image */
+            background-size: cover; /* Scale the image to cover the entire banner */
+            background-position: center; /* Center the image */
+            height: 200px; /* Adjust the height as needed */
+            width: 100%; /* Full width */
+            color: white; /* Text color */
+            display: flex; /* Flexbox for centering content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+        body {
+            margin: 0;
+            padding-top: 50px; /* Adjust for the banner height */
+        }
+
+/* Header styling */
+header {
+    background: #5C4033;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+
+/* H1 styling */
+h1 {
+	height: 50px;
+	}
+
+/* H2 styling */
+h2 {
+	height: 10px;
+	padding: 50px;
+	}
+/* H3 styling */
+h3 {
+	
+	padding: 5px;
+}
+/* Navigation styling */
+nav {
+    background: #5C4033;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #D3D3D3;
+}
+
+.active {
+    background-color: #4CAF50;
+    
+}
+/* Main content area */
+main {
+    display: flex;
+    margin: 20px;
+    width: 80%;
+    background: #5C4033;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Section styling */
+section {
+    display: flex;
+    flex-direction: column;
+    background: #9E7458;
+    flex: 3;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Section elements */
+section > header {
+	text-align: center;
+}
+article {
+	line-height: 2;
+	padding: 10px;
+}
+section > footer {
+    background: #9D7458;
+    padding: 10px;
+    line-height: 2;
+    text-align: left;
+}
+p {
+	line-height: 2;
+}
+
+/* Aside styling */
+aside {
+    background: #9D7458;
+    flex: 1;
+    padding: 20px;
+    line-height: 2;
+    text-align: left;
+}
+
+/* Main footer styling */
+footer {
+    background: #9E7458;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Footer image styling */
+#footer-image {
+    
+   height: 50px;
+    width=50px;
+}
+
+/*Employees styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+	}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+.team-grid {
+     display: flex;
+     justify-content: space-between;
+      gap: 20px;
+    }
+
+.team-member {
+     flex: 1;
+     text-align: center;
+    }
+
+.team-member img {
+     width: 100%;
+     max-width: 220px;
+     height: 350px;
+     border-radius: 10px;
+    }
+
+.team-member h3 {
+     margin: 10px 0 5px;
+     font-size: 1.2em;
+    }
+
+.team-member p {
+    font-size: 0.9em;
+    color: #aaa;
+    }
+    
+/* Products styling*/
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
